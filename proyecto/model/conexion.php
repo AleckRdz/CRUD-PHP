@@ -1,12 +1,12 @@
 <?php
 
-$contrasena = "Zuniga950";
-$usuario = "aleckrdz";
+$contrasena = "pass";
+$usuario = "user";
 $nombre_bd = "proyecto_final";
 
 try {
 	$bd = new PDO (
-		'mysql:host=localhost;
+		'mysql:host=target;
 		dbname='.$nombre_bd,
 		$usuario,
 		$contrasena,
